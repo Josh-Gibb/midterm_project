@@ -4,6 +4,7 @@
     $password = 'qcqq3jh0jfate9vk';
     try{
         $db = new PDO($dsn, $username, $password);
+        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch(PDOException $e){
         $error = "Database Error! " . $e->getMessage();
         include('view/error.php');
