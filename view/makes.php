@@ -23,9 +23,9 @@
 <h2>Add Vehicle Make</h2>
 <form action="." method="POST">
     <input type="hidden" name="make_action" value="add_make">
-    <label>Name:</label>
+    <label>Make:</label>
     <br>
-    <input type="text" name="make" required>
+    <input type="text" name="make" placeholder = "Enter a make" required>
     <button class = "submit">Add Make</button>
 </form>
 <br>
