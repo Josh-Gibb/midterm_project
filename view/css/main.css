@@ -1,0 +1,91 @@
+*{
+    background-color: white;
+    font-family: Georgia, Times New Roman, serif;
+}
+
+header{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+footer{
+    padding-top: 10px;
+    border-top: 1px solid black;
+    text-align: right;
+}
+
+a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+ }
+
+p{
+    margin: 0px;
+}
+table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+td, th{
+    border: 1px dotted black;
+    text-align: left;
+    padding: 3px;
+    text-align: center;
+}
+
+.filter{
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.sort{
+    text-align: center;
+}
+
+.submit{
+    padding: 6px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.remove{
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    border-color: white;
+}
+
+.addPage{
+    display: block;
+    text-align: left;
+}
+
+h2{
+    color: rgb(31, 196, 31);
+}
+
+.addTextFields{
+    width: 40%;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 0.5px solid black;
+}
+
+.addButton{
+    width: 40%;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
