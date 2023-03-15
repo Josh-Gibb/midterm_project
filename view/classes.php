@@ -21,9 +21,9 @@
 <h2>Add Vehicle Class</h2>
 <form action="." method="POST">
     <input type="hidden" name="class_action" value="add_class">
-    <label>Name:</label>
+    <label>Class:</label>
     <br>
-    <input type="text" name="class" required>
+    <input type="text" name="class" placeholder = "Enter a class" required>
     <button class = "submit">Add Class</button>
 </form>
 <br>
