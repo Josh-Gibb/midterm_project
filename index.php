@@ -44,6 +44,13 @@ switch ($action) {
         $makes = display_all_makes();
         include('view/add_vehicle.php');
         break;
+    case 'display_public_page':
+        $vehicles = display_vehicles($type_id, $make_id, $class_id, $order_field);
+        $makes = display_all_makes();
+        $classes = display_all_classes();
+        $types = display_all_types();
+        include('view/public_page.php');
+        break;
     default:
         $vehicles = display_vehicles($type_id, $make_id, $class_id, $order_field);
         $makes = display_all_makes();
