@@ -1,6 +1,19 @@
-<?php include('view/header.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Assessment</title>
+    <link rel = "stylesheet" href = "view/css/main.css">
+</head>
+<header>
+    <h1>Zippy Public Page</h1>
+</header>
+<body>
 <section>
     <form action="." method="GET">
+        <input type = "hidden" name = "action" value = "display_public_page">
         <select name="make_id" class="filter" required>
             <option value="0">View All Makes</option>
             <?php foreach ($makes as $make): ?>
