@@ -58,7 +58,7 @@
         </tr>
         <?php foreach ($vehicles as $vehicle): ?>
             <tr>
-              <td>
+               <td>
                     <?php echo $vehicle['Year'] ?>
                </td>
                <td>
@@ -72,6 +72,10 @@
                 </td>
                 <td>
                     <?php echo $vehicle['Class'] ?>
+                </td>
+                <td>
+                    <label>$</label>
+                    <?php echo $vehicle['Price'] ?>
                 </td>
             </tr>
         <?php endforeach; ?>
