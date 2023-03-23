@@ -49,11 +49,13 @@ td, th{
 }
 
 .submit{
-    padding: 6px;
+    padding: 3px;
     background-color: blue;
     border: none;
     color: white;
     border-radius: 10px;
+    margin-left: 2px;
+    font-size: 8px;
 }
 
 .remove{
@@ -131,6 +133,11 @@ label{
         padding: 15px;
         border-radius: 15px;
     }
+    
+    .submit{
+    padding: 6px;
+    font-size: 12px;
+}
 
     label{
         font-size: 15px;
