@@ -6,7 +6,6 @@
 header{
     border-bottom: 1px solid black;
     margin-bottom: 10px;
-    color: red;
 }
 
 footer{
@@ -47,6 +46,8 @@ td, th{
 
 .sort{
     text-align: center;
+    font-size: 8px;
+    margin-top: 3px;
 }
 
 .submit{
@@ -62,7 +63,7 @@ td, th{
 .remove{
     background-color: red;
     border-radius: 8px;
-    padding: 2px;
+    padding: 3px;
     color: white;
     border-color: white;
     font-size: 8px;
